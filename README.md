@@ -1,4 +1,4 @@
-# AI-inference-API
+# coffee-recommender-api
 
 이 서버는 외부 요청을 받아서 모델에게 입력 전달하고, 모델의 출력을 받아 클라이언트에 결과를 JSON 등으로 응답합니다.
 
@@ -38,8 +38,8 @@
 
 | 역할            | 기술 스택                  |
 |----------------|--------------------------|
-| Frontend       | React, React Native 등     |
-| Backend        | Spring Boot, Express.js    |
+| Frontend       | React, Next.js      |
+| Backend        | Express.js, Nest.js (JavaScript)   |
 | AI Inference   | FastAPI (Python)           |
 | AI Model       | HuggingFace, PyTorch, TensorFlow |
 
