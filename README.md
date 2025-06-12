@@ -45,4 +45,14 @@
 
 ---
 
-필요하면 각 부분별 상세 구현 가이드나 API 문서도 추가 작성 가능합니다.
+## 프로젝트 구조
+
+```plaintext
+coffee-recommender-api/
+├── app.py                    # Flask 서버: POST /recommend
+├── recommender.py            # 모델 로딩 및 추천 함수
+├── train_model.py            # 모델 학습용 스크립트
+├── model.pkl                 # 학습된 모델
+├── sample_training_data.csv  # 학습용 데이터 예시
+├── requirements.txt          # pip 설치 목록
+
